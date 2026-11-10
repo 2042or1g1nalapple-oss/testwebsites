@@ -17,7 +17,7 @@
 }
 
 .hero__background {
-  background-image: url("/assets/images/office_1200x630-58.webp");
+  background-image: url("../assets/images/office_1200x630-58.webp.");
   background-size: cover;
   background-position: center;
 }
