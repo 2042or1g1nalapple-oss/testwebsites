@@ -6,7 +6,7 @@ export default async function renderFeaturedTeam() {
   if (!container) return;
 
   try {
-    const response = await fetch("./assets/json/team.json");
+    const response = await fetch("./assets/json/team.json"); 
 
     if (!response.ok) {
       throw new Error("Failed to load team data.");
