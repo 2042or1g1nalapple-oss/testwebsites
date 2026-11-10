@@ -7,7 +7,7 @@ export default async function renderFeaturedNews() {
   if (!container) return;
 
   try {
-    const response = await fetch("../assets/json/news.json");
+    const response = await fetch("./assets/json/news.json");
 
     if (!response.ok) {
       throw new Error(`HTTP error: ${response.status}`);

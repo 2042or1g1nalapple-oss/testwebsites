@@ -7,7 +7,7 @@ export default async function renderFeaturedProducts() {
   if (!container) return;
 
   try {
-    const response = await fetch("../assets/json/products.json");
+    const response = await fetch("./assets/json/products.json");
 
     if (!response.ok) {
       throw new Error(`HTTP error: ${response.status}`);
